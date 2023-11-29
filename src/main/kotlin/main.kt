@@ -11,6 +11,15 @@ data class Event(
     val durationInMinutes: Int,
 )
 
+val Event.durationOfEvent: String
+    get() {
+        return if (durationInMinutes < 60) {
+            "short"
+        } else {
+            "long"
+        }
+    }
+
 
 fun main(){
 
@@ -35,4 +44,6 @@ fun main(){
     }
 
     println("Last event of the day: ${listOfEvents.last().title}")
+    println("Duration of first event of the day: ${listOfEvents[0].durationOfEvent}")
+
 }
