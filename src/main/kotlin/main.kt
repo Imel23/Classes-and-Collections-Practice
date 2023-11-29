@@ -33,4 +33,6 @@ fun main(){
     groupedEvents.forEach{(daypart,events)->
         println("$daypart: ${events.size} events")
     }
+
+    println("Last event of the day: ${listOfEvents.last().title}")
 }

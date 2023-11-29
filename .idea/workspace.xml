@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df115d64-a844-4737-a371-855fdd94eed6" name="Changes" comment="Add summary of all the events and their daypart.">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+    <list default="true" id="df115d64-a844-4737-a371-855fdd94eed6" name="Changes" comment="Change method for summarizing all the events and the daypart.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701264287025</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change method for summarizing all the events and the daypart.">
+      <created>1701264669379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701264669379</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +121,7 @@
     <MESSAGE value="Creating a list of Event" />
     <MESSAGE value="filtering short Events" />
     <MESSAGE value="Add summary of all the events and their daypart." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add summary of all the events and their daypart." />
+    <MESSAGE value="Change method for summarizing all the events and the daypart." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change method for summarizing all the events and the daypart." />
   </component>
 </project>
