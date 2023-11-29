@@ -26,4 +26,12 @@ fun main(){
     var listOfShortEvents = listOfEvents.filter { it.durationInMinutes < 60 }
 
     println("You have ${listOfShortEvents.size} short events.")
+
+    val morningNumber = listOfEvents.filter { it.daypart == Daypart.MORNING }.size
+    val afternoonNumber = listOfEvents.filter { it.daypart == Daypart.AFTERNOON }.size
+    val eveningNumber = listOfEvents.filter { it.daypart == Daypart.EVENING }.size
+
+    println("Morning: $morningNumber events")
+    println("Afternoon: $afternoonNumber events")
+    println("Evening: $eveningNumber events")
 }
