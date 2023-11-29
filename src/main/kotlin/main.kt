@@ -25,5 +25,5 @@ fun main(){
 
     var listOfShortEvents = listOfEvents.filter { it.durationInMinutes < 60 }
 
-    println(listOfShortEvents)
+    println("You have ${shortEvents.size} short events.")
 }
