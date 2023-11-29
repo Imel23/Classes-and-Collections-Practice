@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df115d64-a844-4737-a371-855fdd94eed6" name="Changes" comment="Creating Event data class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="df115d64-a844-4737-a371-855fdd94eed6" name="Changes" comment="filtering short Events">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701263095277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="filtering short Events">
+      <created>1701263458765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701263458765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +83,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating Event data class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Event data class" />
+    <MESSAGE value="Creating a list of Event" />
+    <MESSAGE value="filtering short Events" />
+    <option name="LAST_COMMIT_MESSAGE" value="filtering short Events" />
   </component>
 </project>

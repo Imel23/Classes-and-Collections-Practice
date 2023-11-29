@@ -14,7 +14,7 @@ data class Event(
 
 fun main(){
 
-    var listOfEvent = mutableListOf<Event>(
+    var listOfEvents = mutableListOf<Event>(
         Event(title = "Wake up", description = "Time to get up", daypart = Daypart.MORNING, durationInMinutes = 0),
         Event(title = "Eat breakfast", daypart = Daypart.MORNING, durationInMinutes = 15),
         Event(title = "Learn about Kotlin", daypart = Daypart.AFTERNOON, durationInMinutes = 30),
@@ -23,7 +23,7 @@ fun main(){
         Event(title = "Check out latest Android Jetpack library", daypart = Daypart.EVENING, durationInMinutes = 45)
     )
 
-    var listOfShortEvent = listOfEvent.filter { it.durationInMinutes < 60 }
+    var listOfShortEvents = listOfEvents.filter { it.durationInMinutes < 60 }
 
-    println(listOfShortEvent)
+    println(listOfShortEvents)
 }
